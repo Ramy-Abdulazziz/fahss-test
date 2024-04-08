@@ -3,7 +3,7 @@ var Experigen =  {
 
 		experimentName: "fahssresearcharb", // use only A-Z, a-z, 0-9
 		
-		databaseServer: "https://sdb.phonologist.org/experigen1/.",
+		databaseServer: "https://sdb.phonologist.org/experigen1/fahssarbsbu.",
 		recorderServer: "https://sdb.phonologist.org/audio/upload.php",
 
 		online: true, // make sure you know what you're doing before changing this
