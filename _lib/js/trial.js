@@ -14,7 +14,7 @@ Experigen.make_into_trial = function (that) {
 	that.responses = 0;
 	
 	that.getRandomInt = function (){
-		return Experigen.userCode; 
+		return Math.floor(Math.random() * 500) + 1; 
 	}
 
 	that.advance = function(spec) {
