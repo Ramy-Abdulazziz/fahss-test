@@ -28,48 +28,10 @@
 <div class="trialpartWrapper" style="clear: both; text-align: center">
     Which was the correct word?
     <p>
-        <!-- %= makeScale({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["first one", "second one"]}) % -->
         <%= makeScale({buttons: ["option 1","option 2", "option 3"], key:[s_options[0], s_options[1], s_options[2]]}) %>
     </p>
 </div>
 
 <div class="trialpartWrapper"><%= continueButton() %></div>
-
-<!-- <div class="trialpartWrapper" style="clear:both; text-align: center;">  
-	Now say the last word you just heard.
-	<p>
-	<%= makeRecorder(item) %>
-</div> -->
-
-<!-- 
-
-<div class="trialpartWrapper" style="clear:both; text-align: center;">  
-	Try a radio button, why don't you.
-	<p>
-	<%= makeScale({buttons: ["1","2","3","4","5"], edgelabels: ["first one", "second one"], buttontype: "radio", disable: true  }) %>
-</div>
-
-
-<div class="trialpartWrapper" style="clear:both; text-align: center;">  
-	Press one of these two buttons.   We'll tell you which one was right as soon as it's too late to change your mind. 
-	<p>
-	<%= makeScale({buttons: ["YMMV", "YOLO"], edgelabels: ["", ""], disable: true, rightAnswer: "YOLO", feedbackID: "#feedback", feedbackWrong: "No, you were supposed to press RIGHTANSWER.",  feedbackRight: "Great! RIGHTANSWER is the right answer."  }) %>
-	<div id="feedback" style="padding:30px;"></div>
-
-</div>
-
-
-<div class="trialpartWrapper" style="clear:both; text-align: center;">  
-	Please make this question disappear by pressing one of the bottons below. 
-	<p>
-	<%= makeScale({buttons: ["OMG", "WTF", "WHATEVER"], edgelabels: ["", ""], disable: true, hide: true }) %>
-</div>
-
-<div class="trialpartWrapper" style="clear:both; text-align: center;">  
-	Ready for the next item?
-	<p>
-	<%= makeScale({buttons: ["sure", "totes"], edgelabels: ["", ""], disable: true  }) %>
-</div>
--->
 
 <div style="clear: both; height: 1px">&nbsp;</div>
