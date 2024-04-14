@@ -389,7 +389,7 @@ Experigen.make_into_trial = function (that) {
 		var label = obj.label || Experigen.settings.strings.soundButton;
 		var soundID  = obj.soundID || (Experigen.screen()[Experigen.resources.items.key]||"") + Experigen.screen().trialnumber + Experigen.screen().soundbuttons.length;
 		soundID = "_" + soundID; // force all sounds to start with a non-numeric character
-		var soundFile = Experigen.settings.folders.sounds +obj.option +obj.soundFile;
+		var soundFile = Experigen.settings.folders.sounds +obj.soundFile;
 		var advance = true;
 		if (obj.advance===false) {
 			advance = false;
