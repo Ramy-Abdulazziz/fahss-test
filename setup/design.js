@@ -1,30 +1,50 @@
 Experigen.initialize = function () {
-	
-	var items  = this.resource("items");
-	var frames = this.resource("frames");
-	items = items.pairWith("frame", frames.shuffle())
+    var items = this.resource("items");
+    var experimentalOptions = [];
 
-	var sampleItem =  items.subset("item","cretum")
-			.pairWith("order",1)
-			.pairWith("view","stimulus.ejs")
-			;
-	var block1 = []
-			.concat(items.subset("type","stim").subset("shape","iamb").chooseRandom(0))
-			.concat(items.subset("type","stim").subset("shape","mono").chooseRandom(2))
-			.concat(items.subset("type","stim").subset("shape","trochee").chooseRandom(0))
-			.pairWith("view","stimulus.ejs")
-			.shuffle()
-			.pairWith("order",[1,2])
-			.shuffle()
-			;
+    var distractor = []
+        .concat(items.subset("category", "Distractor"))
+        .pairWith("view", "stimulus.ejs")
+        .shuffle()
+        .chooseRandom(10)
+        .shuffle();
+    var finalH = []
+        .concat(items.subset("category", "FinalH"))
+        .pairWith("view", "stimulus.ejs")
+        .shuffle()
+        .chooseRandom(10)
+        .shuffle();
+    var initialH = []
+        .concat(items.subset("category", "InitialH"))
+        .pairWith("view", "stimulus.ejs")
+        .shuffle()
+        .chooseRandom(10)
+        .shuffle();
+    var medialCodaH = []
+        .concat(items.subset("category", "MedialCodaH"))
+        .pairWith("view", "stimulus.ejs")
+        .shuffle()
+        .chooseRandom(10)
+        .shuffle();
+    var medialOnsetH = []
+        .concat(items.subset("category", "MedialOnsetH"))
+        .pairWith("view", "stimulus.ejs")
+        .shuffle()
+        .chooseRandom(10)
+        .shuffle();
 
-	this.addStaticScreen("intro.ejs");
-	// this.addStaticScreen("intro2.ejs");
-	// this.addBlock(sampleItem);
-	this.addStaticScreen("getgoing.ejs");
-	this.addStaticScreen("trial.ejs"); 
-	this.addBlock(block1);
-	this.addStaticScreen("demographic.ejs");
-	this.addStaticScreen("finalthanks.ejs");
+    experimentalOptions = [
+        ...distractor,
+        ...finalH,
+        ...initialH,
+        ...medialCodaH,
+        ...medialOnsetH,
+    ].shuffle();
 	
-}
+    this.addStaticScreen("intro.ejs");
+    this.addStaticScreen("getgoing.ejs");
+    // this.addStaticScreen("trial.ejs");
+    this.addBlock(experimentalOptions);
+    this.addStaticScreen("demographic.ejs");
+    this.addStaticScreen("finalthanks.ejs");
+};

@@ -1,46 +1,37 @@
-
-<%frame.text1 = frame.text1.replace(/_+/,"<b><i>" + item + "</i></b>");%>
 <!-- <div style="text-align: center; line-height:130%;"> 
 
 	<h1> This is a test input that should show up</h1>
 </div> -->
-<div style="text-align: center; line-height:130%;">
-	<p>
-	<%= frame.text1 %>
-	<br>
-	<%= frame.text2 %>
+
+<div class="trialpartWrapper" style="clear: both">
+    <div style="align-content: center; height: 3em; width: 100%">
+        <%= makeSoundButton({soundFile: file_sg }) %>
+    </div>
 </div>
 
-<div class = "trialpartWrapper" style="clear:both;">
-	<div  style="align-content: center; height: 3em; width: 100%;">
-		<%= makeSoundButton({soundFile: file_sg , soundFile2: this["file_pl" + order]}) %>
-	</div>
+<div class="trialpartWrapper" style="clear: both">
+    <div><h4>Now listen to these words - one of them is the same</h4></div>
+    <%s_options = [opt1, opt2, opt3].shuffle()%> <%console.log(s_options)%>
+    <div style="float: left; height: 3em; width: 25%">
+        <%= makeSoundButton({soundFile: s_options[0]}) %>
+    </div>
+
+    <div style="float: left; height: 3em; width: 50%">
+        <%= makeSoundButton({soundFile: s_options[1]}) %>
+    </div>
+
+    <div style="float: right; height: 3em; width: 25%">
+        <%= makeSoundButton({soundFile: s_options[2]}) %>
+    </div>
 </div>
 
-<div  class = "trialpartWrapper" style="clear:both;">
-	<div> <h4> Now listen to these words - one of them is the same</h4></div>
-
-	<div  style="float:left; height: 3em; width: 25%;">
-		<%= makeSoundButton({soundFile: file_sg , soundFile1: this["file_pl" +(3-order)]}) %>
-	</div>
-
-	<div  style="float:left;  height: 3em; width: 50%;">
-		<%= makeSoundButton({soundFile: file_sg , soundFile2: this["file_pl" + (2-order)]}) %>
-	</div>
-
-	<div  style="float:right; height: 3em; width: 25%;">
-		<%= makeSoundButton({soundFile: file_sg , soundFile3: this["file_pl" + order]}) %>
-	</div>
+<div class="trialpartWrapper" style="clear: both; text-align: center">
+    Which was the correct word?
+    <p>
+        <!-- %= makeScale({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["first one", "second one"]}) % -->
+        <%= makeScale({buttons: ["option 1","option 2", "option 3"], key:[s_options[0], s_options[1], s_options[2]]}) %>
+    </p>
 </div>
-
-
-<div class = "trialpartWrapper" style="clear:both; text-align: center;">  
-	Which was the correct word?
-	<p>
-	<!-- %= makeScale({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["first one", "second one"]}) % -->
-	<%= makeScale({buttons: ["first one","second one", "third one"]}) %>
-</div>
-
 
 <div class="trialpartWrapper"><%= continueButton() %></div>
 
@@ -81,4 +72,4 @@
 </div>
 -->
 
-<div style="clear: both; height: 1px;">&nbsp;</div>
+<div style="clear: both; height: 1px">&nbsp;</div>
