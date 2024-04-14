@@ -99,7 +99,7 @@ Experigen.make_into_trial = function (that) {
 		if (obj.buttontype === "radio") { buttontype = "radio"; };
 		var disable = (obj.disable) ? true  : false;
 		var hide    = (obj.hide) ? true  : false;
-
+		var key = obj.key; 
 		var serverValues = obj.serverValues || buttons;
 		/// validate serverValues here to be non-empty and distinct
 
@@ -109,7 +109,7 @@ Experigen.make_into_trial = function (that) {
 		str += '<div class="scaleWrapper">';
 		for (var i=0; i<buttons.length; i+=1) {
 			str += `<div class="scalebuttonWrapper${i+1}">`;
-			str += '<input type="' + buttontype + '" value="'+ buttons[i] +'" id="' + Experigen.screen().responses + 'button' + i + '" name="scale'+ Experigen.screen().responses +'" class="scaleButton" onClick="Experigen.screen().recordResponse(' + Experigen.screen().responses + "," + "'" + buttons[i] + "'" + ');Experigen.screen().continueButtonClick(this,{hide:' +  hide + ',disable:' + disable + '});';
+			str += '<input type="' + buttontype + '" value="'+ buttons[i] +'" id="' + Experigen.screen().responses + 'button' + i + '" name="scale'+ Experigen.screen().responses +'" class="scaleButton" onClick="Experigen.screen().recordResponse(' + Experigen.screen().responses + "," + "'" + key[i] + "'" + ');Experigen.screen().continueButtonClick(this,{hide:' +  hide + ',disable:' + disable + '});';
 
 			if (obj.rightAnswer) {
 				str += 'Experigen.screen().feedbackOnText(this,\'' + obj.feedbackID + '\',\'' + obj.matchRegExpression + '\',\'' + obj.rightAnswer + '\',\'' + obj.feedbackWrong + '\',\'' + obj.feedbackMatch + '\',\'' + obj.feedbackRight + '\')';
@@ -389,7 +389,7 @@ Experigen.make_into_trial = function (that) {
 		var label = obj.label || Experigen.settings.strings.soundButton;
 		var soundID  = obj.soundID || (Experigen.screen()[Experigen.resources.items.key]||"") + Experigen.screen().trialnumber + Experigen.screen().soundbuttons.length;
 		soundID = "_" + soundID; // force all sounds to start with a non-numeric character
-		var soundFile = Experigen.settings.folders.sounds + obj.soundFile;
+		var soundFile = Experigen.settings.folders.sounds +obj.option +obj.soundFile;
 		var advance = true;
 		if (obj.advance===false) {
 			advance = false;
