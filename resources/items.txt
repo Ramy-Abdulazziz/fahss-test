@@ -1,46 +1,101 @@
-item	file_sg	file_pl1	file_pl2	IPA	type	shape	vowel
-brelowth	brelowth_104.wav.mp3	brelowth.s_108.wav.mp3	brelowth.z_106.wav.mp3	brəloʊθ	stim	iamb	oʊ
-buwalf 	buwalf_98.wav.mp3	buwalf.s_102.wav.mp3	buwalf.z_100.wav.mp3	bəwælf	stim	iamb	æ
-dackelth	dackelth_262.wav.mp3	dackelth.s_266.wav.mp3	dackelth.z_264.wav.mp3	dəkɛlθ	stim	iamb	ɛ
-dipyth	dipyth_172.wav.mp3	dipyth.s_176.wav.mp3	dipyth.z_174.wav.mp3	dəpaɪθ	stim	iamb	aɪ
-genurth	genurth_3002.wav.mp3	genurth.s_3022.wav.mp3	genurth.z_3042.wav.mp3	gənɚθ	stim	iamb	ɚ
-glinof	glinof_322.wav.mp3	glinof.s_362.wav.mp3	glinof.z_342.wav.mp3	glənɑf	stim	iamb	ɑ
-hareeth	hareeth_408.wav.mp3	hareeth.s_534.wav.mp3	hareeth.z_532.wav.mp3	həɹiθ	stim	iamb	i
-hibof	hibof_2402.wav.mp3	hibof.s_2442.wav.mp3	hibof.z_2422.wav.mp3	həbɑf	stim	iamb	ɑ
-hilayth	hullayth_4242.wav.mp3	hullayth.s_4282.wav.mp3	hullayth.z_4262.wav.mp3	həleɪθ	stim	iamb	eɪ
-hissyth	hussyth_2042.wav.mp3	hussyth.s_2082.wav.mp3	hussyth.z_2062.wav.mp3	həsaɪθ	stim	iamb	aɪ
-jezoth	jezoth_62.wav.mp3	jezoth.s_66.wav.mp3	jezoth.z_64.wav.mp3	ʤəzɑθ	stim	iamb	ɑ
-bafe	bafe_420.wav.mp3	bafe.s_424.wav.mp3	bafe.z_422.wav.mp3	beɪf	stim	mono	eɪ
-beeth	beeth_5782.wav.mp3	beeth.s_5822.wav.mp3	beeth.z_5802.wav.mp3	biθ	stim	mono	i
-bilth	bilth_692.wav.mp3	bilth.s_5142.wav.mp3	bilth.z_5122.wav.mp3	bɪlθ	stim	mono	ɪ
-brife	brife_578.wav.mp3	brife.s_152.wav.mp3	brife.z_150.wav.mp3	bɹaɪf	stim	mono	aɪ
-bunf	bunf_584.wav.mp3	bunf.s_588.wav.mp3	bunf.z_586.wav.mp3	bʌnf	stim	mono	ʌ
-choath	choath_44.wav.mp3	choath.s_48.wav.mp3	choath.z_46.wav.mp3	ʧoʊθ	stim	mono	oʊ
-chyth	chyth_542.wav.mp3	chyth.s_546.wav.mp3	chyth.z_544.wav.mp3	ʧaɪθ	stim	mono	aɪ
-cloof	cloof_8.wav.mp3	cloof.s_12.wav.mp3	cloof.z_10.wav.mp3	klʊf	stim	mono	ʊ
-deef	deef_5162.wav.mp3	deef.s_5182.wav.mp3	deef.z_5202.wav.mp3	dif	stim	mono	i
-doof	doof_620.wav.mp3	doof.s_624.wav.mp3	doof.z_622.wav.mp3	duf	stim	mono	u
-doath	dowth_6122.wav.mp3	dowth.s_6162.wav.mp3	dowth.z_6142.wav.mp3	doʊθ	stim	mono	oʊ
-dweeth	dweeth_202.wav.mp3	dweeth.s_206.wav.mp3	dweeth.z_204.wav.mp3	dwiθ	stim	mono	i
-gleef	gleef_1523.wav.mp3	gleef.s_4222.wav.mp3	gleef.z_4202.wav.mp3	glif	stim	mono	i
-hooth	hooth_80.wav.mp3	hooth.s_84.wav.mp3	hooth.z_82.wav.mp3	huθ	stim	mono	u
-jaff	jaf_3602.wav.mp3	jaf.s_3642.wav.mp3	jaf.z_3622.wav.mp3	ʤæf	stim	mono	æ
-brunlif	brunlif_6862.wav.mp3	brunlif.s_6902.wav.mp3	brunlif.z_6882.wav.mp3	brʌnləf	stim	trochee	ʌ
-chiddif	chiddif_4302.wav.mp3	chiddif.s_4342.wav.mp3	chiddif.z_4322.wav.mp3	ʧɪdəf	stim	trochee	ɪ
-craedef	craedef_740.wav.mp3	craedef.s_744.wav.mp3	craedef.z_742.wav.mp3	kreɪdəf	stim	trochee	eɪ
-fiddith	fiddith_224.wav.mp3	fiddith.s_346.wav.mp3	fiddith.z_344.wav.mp3	fɪdəθ	stim	trochee	ɪ
-flodaf	floduf_7582.wav.mp3	floduf.s_7622.wav.mp3	floduf.z_7602.wav.mp3	floʊdəf	stim	trochee	oʊ
-glersif	glersif_274.wav.mp3	glersif.s_278.wav.mp3	glersif.z_276.wav.mp3	glɚsəf	stim	trochee	ɚ
-hockith	hockith_734.wav.mp3	hockith.s_736.wav.mp3	hockith.z_738.wav.mp3	hɑkəθ	stim	trochee	ɑ
-hylith	hylith_524.wav.mp3	hylith.s_526.wav.mp3	hylith.z_528.wav.mp3	haɪləθ	stim	trochee	aɪ
-jonnif	jonnif_444.wav.mp3	jonnif.s_446.wav.mp3	jonnif.z_5622.wav.mp3	dʒɑnəf	stim	trochee	ɑ
-juckith	juckith_3742.wav.mp3	juckith.s_1783.wav.mp3	juckith.z_1803.wav.mp3	ʤʌkəθ	stim	trochee	ʌ
-jellix	jellix_5982.wav.mp3	jellix.i_6002.wav.mp3	jellix.s_6022.wav.mp3	dʒəlɪks	filler	iamb	ɪ
-baudge	baudge_614.wav.mp3	baudge.i_618.wav.mp3	baudge.z_616.wav.mp3	bɑdʒ	filler	mono	ɑ
-bish	bish_438.wav.mp3	bish.i_1143.wav.mp3	bish.s_440.wav.mp3	bɪʃ	filler	mono	ɪ
-chox	chox_710.wav.mp3	chox.i_504.wav.mp3	chox.s_714.wav.mp3	ʧɑks	filler	mono	ɑ
-dow	dow_128.wav.mp3	dow.i_1983.wav.mp3	dow.s_132.wav.mp3	daʊ	filler	mono	aʊ
-bosum	bosum_330.wav.mp3	bosum.i_334.wav.mp3	bosum.s_332.wav.mp3	boʊzəm	filler	trochee	oʊ
-cresson	cresson_7402.wav.mp3	cresson.i_7442.wav.mp3	cresson.s_7422.wav.mp3	krɛsən	filler	trochee	ɛ
-cretum	cretum_4802.wav.mp3	cretum.i_6102.wav.mp3	cretum.s_6082.wav.mp3	kɹitəm	filler	trochee	i
-jedex	jedex_562.wav.mp3	jedex.i_486.wav.mp3	jedex.s_602.wav.mp3	dʒɛdəks	filler	trochee	ɛ
+item	file_sg	option	category	c1	c2	c3	opt1	opt2	opt3
+sdb	Distractor\sdb.mp3	D	Distractor	Fricative	stop	stop	DistractorChoice\sdb.mp3	DistractorChoiceD\sadb.mp3	DistractorChoiceVoicing\pts.mp3	
+srm	Distractor\srm.mp3	D	Distractor	Fricative	liquid	nasal	DistractorChoice\srm.mp3	DistractorChoiceD\sarm.mp3	DistractorChoiceVoicing\pns.mp3	
+snl	Distractor\snl.mp3	D	Distractor	Fricative	nasal	liquid	DistractorChoice\snl.mp3	DistractorChoiceD\sanl.mp3	DistractorChoiceVoicing\pSk.mp3	
+syk	Distractor\syk.mp3	D	Distractor	Fricative	glide	stop	DistractorChoice\syk.mp3	DistractorChoiceD\sayk.mp3	DistractorChoiceVoicing\prs.mp3	
+stk	Distractor\stk.mp3	D	Distractor	Fricative	stop	stop	DistractorChoice\stk.mp3	DistractorChoiceD\satk.mp3	DistractorChoiceVoicing\pwn.mp3	
+bts	Distractor\bts.mp3	D	Distractor	stop	stop	Fricative	DistractorChoice\bts.mp3	DistractorChoiceD\bats.mp3	DistractorChoiceVoicing\gbn.mp3	
+bns	Distractor\bns.mp3	D	Distractor	stop	nasal	Fricative	DistractorChoice\bns.mp3	DistractorChoiceD\bans.mp3	DistractorChoiceVoicing\gms.mp3	
+bSk	Distractor\bSk.mp3	D	Distractor	stop	Fricative	stop	DistractorChoice\bSk.mp3	DistractorChoiceD\baSk.mp3	DistractorChoiceVoicing\gsm.mp3	
+brs	Distractor\brs.mp3	D	Distractor	stop	liquid	Fricative	DistractorChoice\brs.mp3	DistractorChoiceD\bars.mp3	DistractorChoiceVoicing\gmy.mp3	
+bwn	Distractor\bwn.mp3	D	Distractor	stop	glide	nasal	DistractorChoice\bwn.mp3	DistractorChoiceD\bawn.mp3	DistractorChoiceVoicing\glS.mp3	
+tlk	Distractor\tlk.mp3	D	Distractor	stop	liquid	stop	DistractorChoice\tlk.mp3	DistractorChoiceD\talk.mp3	DistractorChoiceVoicing\dlk.mp3	
+tml	Distractor\tml.mp3	D	Distractor	stop	nasal	liquid	DistractorChoice\tml.mp3	DistractorChoiceD\taml.mp3	DistractorChoiceVoicing\dml.mp3	
+tsk	Distractor\tsk.mp3	D	Distractor	stop	Fricative	stop	DistractorChoice\tsk.mp3	DistractorChoiceD\task.mp3	DistractorChoiceVoicing\dsk.mp3	
+tms	Distractor\tms.mp3	D	Distractor	stop	nasal	Fricative	DistractorChoice\tms.mp3	DistractorChoiceD\tams.mp3	DistractorChoiceVoicing\dms.mp3	
+tbn	Distractor\tbn.mp3	D	Distractor	stop	stop	nasal	DistractorChoice\tbn.mp3	DistractorChoiceD\tabn.mp3	DistractorChoiceVoicing\dbn.mp3	
+kbn	Distractor\kbn.mp3	D	Distractor	stop	stop	nasal	DistractorChoice\kbn.mp3	DistractorChoiceD\kabn.mp3	DistractorChoiceVoicing\zdb.mp3	
+kms	Distractor\kms.mp3	D	Distractor	stop	nasal	Fricative	DistractorChoice\kms.mp3	DistractorChoiceD\kams.mp3	DistractorChoiceVoicing\zrm.mp3	
+ksm	Distractor\ksm.mp3	D	Distractor	stop	Fricative	nasal	DistractorChoice\ksm.mp3	DistractorChoiceD\kasm.mp3	DistractorChoiceVoicing\znl.mp3	
+kmy	Distractor\kmy.mp3	D	Distractor	stop	nasal	glide	DistractorChoice\kmy.mp3	DistractorChoiceD\kamy.mp3	DistractorChoiceVoicing\zyk.mp3	
+klS	Distractor\klS.mp3	D	Distractor	stop	liquid	Fricative	DistractorChoice\klS.mp3	DistractorChoiceD\kalS.mp3	DistractorChoiceVoicing\ztk.mp3	
+tbH	FinalH\tbH.mp3	H	FinalH	stop	stop	fricative	FinalChoiceH\tbH.mp3	FinalChoiceh\tbH.mp3	FinalChoiceD\tb.mp3	
+btH	FinalH\btH.mp3	H	FinalH	stop	stop	fricative	FinalChoiceH\btH.mp3	FinalChoiceh\btH.mp3	FinalChoiceD\bt.mp3	
+zdH	FinalH\zdH.mp3	H	FinalH	Fricative	stop	fricative	FinalChoiceH\zdH.mp3	FinalChoiceh\zdH.mp3	FinalChoiceD\zd.mp3	
+dkH	FinalH\dkH.mp3	H	FinalH	stop	stop	fricative	FinalChoiceH\dkH.mp3	FinalChoiceh\dkH.mp3	FinalChoiceD\dk.mp3	
+dgH	FinalH\dgH.mp3	H	FinalH	stop	stop	fricative	FinalChoiceH\dgH.mp3	FinalChoiceh\dgH.mp3	FinalChoiceD\dg.mp3	
+dzH	FinalH\dzH.mp3	H	FinalH	stop	Fricative	fricative	FinalChoiceH\dzH.mp3	FinalChoiceh\dzH.mp3	FinalChoiceD\dz.mp3	
+bsH	FinalH\bsH.mp3	H	FinalH	stop	Fricative	fricative	FinalChoiceH\bsH.mp3	FinalChoiceh\bsH.mp3	FinalChoiceD\bs.mp3	
+gSH	FinalH\gSH.mp3	H	FinalH	stop	Fricative	fricative	FinalChoiceH\gSH.mp3	FinalChoiceh\gSH.mp3	FinalChoiceD\gS.mp3	
+zmH	FinalH\zmH.mp3	H	FinalH	Fricative	nasal	fricative	FinalChoiceH\zmH.mp3	FinalChoiceh\zmH.mp3	FinalChoiceD\zm.mp3	
+knH	FinalH\knH.mp3	H	FinalH	stop	nasal	fricative	FinalChoiceH\knH.mp3	FinalChoiceh\knH.mp3	FinalChoiceD\kn.mp3	
+nlH	FinalH\nlH.mp3	H	FinalH	nasal	liquid	fricative	FinalChoiceH\nlH.mp3	FinalChoiceh\nlH.mp3	FinalChoiceD\nl.mp3	
+SyH	FinalH\SyH.mp3	H	FinalH	Fricative	glide	fricative	FinalChoiceH\SyH.mp3	FinalChoiceh\SyH.mp3	FinalChoiceD\Sy.mp3	
+zwH	FinalH\zwH.mp3	H	FinalH	Fricative	glide	fricative	FinalChoiceH\zwH.mp3	FinalChoiceh\zwH.mp3	FinalChoiceD\zw.mp3	
+mwH	FinalH\mwH.mp3	H	FinalH	nasal	glide	fricative	FinalChoiceH\mwH.mp3	FinalChoiceh\mwH.mp3	FinalChoiceD\mw.mp3	
+ynH	FinalH\ynH.mp3	H	FinalH	glide	nasal	fricative	FinalChoiceH\ynH.mp3	FinalChoiceh\ynH.mp3	FinalChoiceD\yn.mp3	
+wrH	FinalH\wrH.mp3	H	FinalH	glide	liquid	fricative	FinalChoiceH\wrH.mp3	FinalChoiceh\wrH.mp3	FinalChoiceD\wr.mp3	
+nmH	FinalH\nmH.mp3	H	FinalH	nasal	nasal	fricative	FinalChoiceH\nmH.mp3	FinalChoiceh\nmH.mp3	FinalChoiceD\nm.mp3	
+rlH	FinalH\rlH.mp3	H	FinalH	liquid	liquid	fricative	FinalChoiceH\rlH.mp3	FinalChoiceh\rlH.mp3	FinalChoiceD\rl.mp3	
+sgH	FinalH\sgH.mp3	H	FinalH	Fricative	stop	fricative	FinalChoiceH\sgH.mp3	FinalChoiceh\sgH.mp3	FinalChoiceD\sg.mp3	
+SdH	FinalH\SdH.mp3	H	FinalH	Fricative	stop	fricative	FinalChoiceH\SdH.mp3	FinalChoiceh\SdH.mp3	FinalChoiceD\Sd.mp3	
+Hbd	InitialH\Hbd.mp3	H	InitialH	fricative	stop	stop	InitialHChoiceH\Hzt.mp3	InitialHChoiceh\Hzt.mp3	InitialHChoiceD\bd.mp3	
+Htb	InitialH\Htb.mp3	H	InitialH	fricative	stop	stop	InitialHChoiceH\HyS.mp3	InitialHChoiceh\HyS.mp3	InitialHChoiceD\tb.mp3	
+Hdl	InitialH\Hdl.mp3	H	InitialH	fricative	stop	liquid	InitialHChoiceH\Hyb.mp3	InitialHChoiceh\Hyb.mp3	InitialHChoiceD\dl.mp3	
+Hkn	InitialH\Hkn.mp3	H	InitialH	fricative	stop	nasal	InitialHChoiceH\Hws.mp3	InitialHChoiceh\Hws.mp3	InitialHChoiceD\kn.mp3	
+Hgm	InitialH\Hgm.mp3	H	InitialH	fricative	stop	nasal	InitialHChoiceH\Hwk.mp3	InitialHChoiceh\Hwk.mp3	InitialHChoiceD\gm.mp3	
+Hsl	InitialH\Hsl.mp3	H	InitialH	fricative	Fricative	liquid	InitialHChoiceH\Htn.mp3	InitialHChoiceh\Htn.mp3	InitialHChoiceD\sl.mp3	
+Hzt	InitialH\Hzt.mp3	H	InitialH	fricative	Fricative	stop	InitialHChoiceH\Htb.mp3	InitialHChoiceh\Htb.mp3	InitialHChoiceD\zt.mp3	
+HSn	InitialH\HSn.mp3	H	InitialH	fricative	Fricative	nasal	InitialHChoiceH\HSn.mp3	InitialHChoiceh\HSn.mp3	InitialHChoiceD\Sn.mp3	
+Hmk	InitialH\Hmk.mp3	H	InitialH	fricative	nasal	stop	InitialHChoiceH\Hsl.mp3	InitialHChoiceh\Hsl.mp3	InitialHChoiceD\mk.mp3	
+Hnr	InitialH\Hnr.mp3	H	InitialH	fricative	nasal	liquid	InitialHChoiceH\Hrl.mp3	InitialHChoiceh\Hrl.mp3	InitialHChoiceD\nr.mp3	
+HlS	InitialH\HlS.mp3	H	InitialH	fricative	liquid	Fricative	InitialHChoiceH\Hnz.mp3	InitialHChoiceh\Hnz.mp3	InitialHChoiceD\lS.mp3	
+Hrl	InitialH\Hrl.mp3	H	InitialH	fricative	liquid	liquid	InitialHChoiceH\Hnr.mp3	InitialHChoiceh\Hnr.mp3	InitialHChoiceD\rl.mp3	
+Hwk	InitialH\Hwk.mp3	H	InitialH	fricative	glide	stop	InitialHChoiceH\Hmk.mp3	InitialHChoiceh\Hmk.mp3	InitialHChoiceD\wk.mp3	
+Hyb	InitialH\Hyb.mp3	H	InitialH	fricative	glide	stop	InitialHChoiceH\HlS.mp3	InitialHChoiceh\HlS.mp3	InitialHChoiceD\yb.mp3	
+Hbm	InitialH\Hbm.mp3	H	InitialH	fricative	stop	nasal	InitialHChoiceH\Hld.mp3	InitialHChoiceh\Hld.mp3	InitialHChoiceD\bm.mp3	
+Htn	InitialH\Htn.mp3	H	InitialH	fricative	stop	nasal	InitialHChoiceH\Hkn.mp3	InitialHChoiceh\Hkn.mp3	InitialHChoiceD\tn.mp3	
+Hnz	InitialH\Hnz.mp3	H	InitialH	fricative	nasal	Fricative	InitialHChoiceH\Hgm.mp3	InitialHChoiceh\Hgm.mp3	InitialHChoiceD\nz.mp3	
+Hld	InitialH\Hld.mp3	H	InitialH	fricative	liquid	stop	InitialHChoiceH\Hdl.mp3	InitialHChoiceh\Hdl.mp3	InitialHChoiceD\ld.mp3	
+Hws	InitialH\Hws.mp3	H	InitialH	fricative	glide	Fricative	InitialHChoiceH\Hbm.mp3	InitialHChoiceh\Hbm.mp3	InitialHChoiceD\ws.mp3	
+HyS	InitialH\HyS.mp3	H	InitialH	fricative	glide	Fricative	InitialHChoiceH\Hbd.mp3	InitialHChoiceh\Hbd.mp3	InitialHChoiceD\yS.mp3	
+baHka	MedialCodaH\baHka.mp3	H	MedialCodaH	stop	fricative	stop	MedialCodaChoiceH\baHka.mp3	MedialCodaChoiceh\baHka.mp3	MedialCodaChoiceD\baDka.mp3	
+taHsa	MedialCodaH\taHsa.mp3	H	MedialCodaH	stop	fricative	Fricative	MedialCodaChoiceH\taHsa.mp3	MedialCodaChoiceh\taHsa.mp3	MedialCodaChoiceD\taDsa.mp3	
+daHwa	MedialCodaH\daHwa.mp3	H	MedialCodaH	stop	fricative	glide	MedialCodaChoiceH\daHwa.mp3	MedialCodaChoiceh\daHwa.mp3	MedialCodaChoiceD\daDwa.mp3	
+kaHya	MedialCodaH\kaHya.mp3	H	MedialCodaH	stop	fricative	glide	MedialCodaChoiceH\kaHya.mp3	MedialCodaChoiceh\kaHya.mp3	MedialCodaChoiceD\kaDya.mp3	
+gaHna	MedialCodaH\gaHna.mp3	H	MedialCodaH	stop	fricative	nasal	MedialCodaChoiceH\gaHna.mp3	MedialCodaChoiceh\gaHna.mp3	MedialCodaChoiceD\gaDna.mp3	
+saHta	MedialCodaH\saHta.mp3	H	MedialCodaH	Fricative	fricative	stop	MedialCodaChoiceH\saHta.mp3	MedialCodaChoiceh\saHta.mp3	MedialCodaChoiceD\saDta.mp3	
+zaHna	MedialCodaH\zaHna.mp3	H	MedialCodaH	Fricative	fricative	nasal	MedialCodaChoiceH\zaHna.mp3	MedialCodaChoiceh\zaHna.mp3	MedialCodaChoiceD\zaDna.mp3	
+SaHla	MedialCodaH\SaHla.mp3	H	MedialCodaH	Fricative	fricative	liquid	MedialCodaChoiceH\SaHla.mp3	MedialCodaChoiceh\SaHla.mp3	MedialCodaChoiceD\SaDla.mp3	
+maHka	MedialCodaH\maHka.mp3	H	MedialCodaH	nasal	fricative	stop	MedialCodaChoiceH\maHka.mp3	MedialCodaChoiceh\maHka.mp3	MedialCodaChoiceD\maDka.mp3	
+naHSa	MedialCodaH\naHSa.mp3	H	MedialCodaH	nasal	fricative	Fricative	MedialCodaChoiceH\naHSa.mp3	MedialCodaChoiceh\naHSa.mp3	MedialCodaChoiceD\naDSa.mp3	
+laHwa	MedialCodaH\laHwa.mp3	H	MedialCodaH	liquid	fricative	glide	MedialCodaChoiceH\laHwa.mp3	MedialCodaChoiceh\laHwa.mp3	MedialCodaChoiceD\laDwa.mp3	
+raHza	MedialCodaH\raHza.mp3	H	MedialCodaH	liquid	fricative	Fricative	MedialCodaChoiceH\raHza.mp3	MedialCodaChoiceh\raHza.mp3	MedialCodaChoiceD\raDza.mp3	
+waHsa	MedialCodaH\waHsa.mp3	H	MedialCodaH	glide	fricative	Fricative	MedialCodaChoiceH\waHsa.mp3	MedialCodaChoiceh\waHsa.mp3	MedialCodaChoiceD\waDsa.mp3	
+yaHga	MedialCodaH\yaHga.mp3	H	MedialCodaH	glide	fricative	stop	MedialCodaChoiceH\yaHga.mp3	MedialCodaChoiceh\yaHga.mp3	MedialCodaChoiceD\yaDga.mp3	
+yaHra	MedialCodaH\yaHra.mp3	H	MedialCodaH	glide	fricative	liquid	MedialCodaChoiceH\yaHra.mp3	MedialCodaChoiceh\yaHra.mp3	MedialCodaChoiceD\yaDra.mp3	
+waHna	MedialCodaH\waHna.mp3	H	MedialCodaH	glide	fricative	nasal	MedialCodaChoiceH\waHna.mp3	MedialCodaChoiceh\waHna.mp3	MedialCodaChoiceD\waDna.mp3	
+raHya	MedialCodaH\raHya.mp3	H	MedialCodaH	liquid	fricative	glide	MedialCodaChoiceH\raHya.mp3	MedialCodaChoiceh\raHya.mp3	MedialCodaChoiceD\raDya.mp3	
+naHma	MedialCodaH\naHma.mp3	H	MedialCodaH	nasal	fricative	nasal	MedialCodaChoiceH\naHma.mp3	MedialCodaChoiceh\naHma.mp3	MedialCodaChoiceD\naDma.mp3	
+kaHda	MedialCodaH\kaHda.mp3	H	MedialCodaH	stop	fricative	stop	MedialCodaChoiceH\kaHda.mp3	MedialCodaChoiceh\kaHda.mp3	MedialCodaChoiceD\kaDda.mp3	
+saHSa	MedialCodaH\saHSa.mp3	H	MedialCodaH	Fricative	fricative	Fricative	MedialCodaChoiceH\saHSa.mp3	MedialCodaChoiceh\saHSa.mp3	MedialCodaChoiceD\saDSa.mp3	
+zHS	MedialOnsetH\zHS.mp3	H	MedialOnsetH	Fricative	fricative	Fricative	MedialOnsetChoiceH\zHS.mp3	MedialOnsetChoiceh\zHS.mp3	MedialOnsetChoiceD\zaS.mp3	
+yHm	MedialOnsetH\yHm.mp3	H	MedialOnsetH	glide	fricative	nasal	MedialOnsetChoiceH\yHm.mp3	MedialOnsetChoiceh\yHm.mp3	MedialOnsetChoiceD\yam.mp3	
+yHd	MedialOnsetH\yHd.mp3	H	MedialOnsetH	glide	fricative	stop	MedialOnsetChoiceH\yHd.mp3	MedialOnsetChoiceh\yHd.mp3	MedialOnsetChoiceD\yad.mp3	
+wHr	MedialOnsetH\wHr.mp3	H	MedialOnsetH	glide	fricative	liquid	MedialOnsetChoiceH\wHr.mp3	MedialOnsetChoiceh\wHr.mp3	MedialOnsetChoiceD\war.mp3	
+wHb	MedialOnsetH\wHb.mp3	H	MedialOnsetH	glide	fricative	stop	MedialOnsetChoiceH\wHb.mp3	MedialOnsetChoiceh\wHb.mp3	MedialOnsetChoiceD\wab.mp3	
+tHs	MedialOnsetH\tHs.mp3	H	MedialOnsetH	stop	fricative	Fricative	MedialOnsetChoiceH\tHs.mp3	MedialOnsetChoiceh\tHs.mp3	MedialOnsetChoiceD\tas.mp3	
+sHz	MedialOnsetH\sHz.mp3	H	MedialOnsetH	Fricative	fricative	Fricative	MedialOnsetChoiceH\sHz.mp3	MedialOnsetChoiceh\sHz.mp3	MedialOnsetChoiceD\saz.mp3	
+SHs	MedialOnsetH\SHs.mp3	H	MedialOnsetH	Fricative	fricative	Fricative	MedialOnsetChoiceH\SHs.mp3	MedialOnsetChoiceh\SHs.mp3	MedialOnsetChoiceD\Sas.mp3	
+rHs	MedialOnsetH\rHs.mp3	H	MedialOnsetH	liquid	fricative	Fricative	MedialOnsetChoiceH\rHs.mp3	MedialOnsetChoiceh\rHs.mp3	MedialOnsetChoiceD\ras.mp3	
+rHn	MedialOnsetH\rHn.mp3	H	MedialOnsetH	liquid	fricative	nasal	MedialOnsetChoiceH\rHn.mp3	MedialOnsetChoiceh\rHn.mp3	MedialOnsetChoiceD\ran.mp3	
+nHw	MedialOnsetH\nHw.mp3	H	MedialOnsetH	nasal	fricative	glide	MedialOnsetChoiceH\nHw.mp3	MedialOnsetChoiceh\nHw.mp3	MedialOnsetChoiceD\naw.mp3	
+mHz	MedialOnsetH\mHz.mp3	H	MedialOnsetH	nasal	fricative	Fricative	MedialOnsetChoiceH\mHz.mp3	MedialOnsetChoiceh\mHz.mp3	MedialOnsetChoiceD\maz.mp3	
+mHr	MedialOnsetH\mHr.mp3	H	MedialOnsetH	nasal	fricative	liquid	MedialOnsetChoiceH\mHr.mp3	MedialOnsetChoiceh\mHr.mp3	MedialOnsetChoiceD\mar.mp3	
+lHk	MedialOnsetH\lHk.mp3	H	MedialOnsetH	liquid	fricative	stop	MedialOnsetChoiceH\lHk.mp3	MedialOnsetChoiceh\lHk.mp3	MedialOnsetChoiceD\lak.mp3	
+kHr	MedialOnsetH\kHr.mp3	H	MedialOnsetH	stop	fricative	liquid	MedialOnsetChoiceH\kHr.mp3	MedialOnsetChoiceh\kHr.mp3	MedialOnsetChoiceD\kar.mp3	
+gHz	MedialOnsetH\gHz.mp3	H	MedialOnsetH	stop	fricative	Fricative	MedialOnsetChoiceH\gHz.mp3	MedialOnsetChoiceh\gHz.mp3	MedialOnsetChoiceD\gaz.mp3	
+dHm	MedialOnsetH\dHm.mp3	H	MedialOnsetH	stop	fricative	nasal	MedialOnsetChoiceH\dHm.mp3	MedialOnsetChoiceh\dHm.mp3	MedialOnsetChoiceD\dam.mp3	
+dHl	MedialOnsetH\dHl.mp3	H	MedialOnsetH	stop	fricative	liquid	MedialOnsetChoiceH\dHl.mp3	MedialOnsetChoiceh\dHl.mp3	MedialOnsetChoiceD\dal.mp3	
+bHm	MedialOnsetH\bHm.mp3	H	MedialOnsetH	stop	fricative	nasal	MedialOnsetChoiceH\bHm.mp3	MedialOnsetChoiceh\bHm.mp3	MedialOnsetChoiceD\bam.mp3	
+bHk	MedialOnsetH\bHk.mp3	H	MedialOnsetH	stop	fricative	stop	MedialOnsetChoiceH\bHk.mp3	MedialOnsetChoiceh\bHk.mp3	MedialOnsetChoiceD\bak.mp3	
