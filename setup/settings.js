@@ -1,7 +1,7 @@
 var Experigen =  {
 	settings: {
 
-		experimentName: "fahssresearcharb", // use only A-Z, a-z, 0-9
+		experimentName: "fahssresearcharb1", // use only A-Z, a-z, 0-9
 		
 		databaseServer: "https://sdb.phonologist.org/experigen1/",
 		recorderServer: "https://sdb.phonologist.org/audio/upload.php",
