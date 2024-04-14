@@ -100,6 +100,7 @@ Experigen.make_into_trial = function (that) {
 		var disable = (obj.disable) ? true  : false;
 		var hide    = (obj.hide) ? true  : false;
 		var key = obj.key; 
+		key.replace(".mp3", ""); 
 		var serverValues = obj.serverValues || buttons;
 		/// validate serverValues here to be non-empty and distinct
 
