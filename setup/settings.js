@@ -38,11 +38,11 @@ var Experigen =  {
 		items: "resources/items.txt",
 		
 		otherresources: {
-			frames: "resources/myframes.txt",
-			pictures: "resources/pictures.txt"	
+		
 		},
 
 		folders: {
+			views: "views/",
 			sounds: "resources/sounds/",
 		},
 	
