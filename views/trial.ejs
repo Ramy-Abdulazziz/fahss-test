@@ -19,7 +19,7 @@
 
 <div class="trialpartWrapper" style="clear: both">
     <div style="align-content: center; height: 3em; width: 100%">
-        <%= makeSoundButton({soundFile: "bafe_420.wav.mp3"}) %>
+        <%= makeSoundButton({soundFile: "trialSounds\Hbd.mp3"}) %>
     </div>
 </div>
 
@@ -27,23 +27,23 @@
     <div><h4>Now listen to these words - one of them is the same</h4></div>
 
     <div style="float: left; height: 3em; width: 33%">
-        <%= makeSoundButton({soundFile: "bafe_420.wav.mp3"}) %>
+        <%= makeSoundButton({soundFile: "trialSounds\Hbd.mp3"}) %>
     </div>
 
     <div style="float: left; height: 3em; width: 33%">
-        <%= makeSoundButton({soundFile: "bafe_420.wav.mp3" }) %>
+        <%= makeSoundButton({soundFile: "trialSounds\hhbd.mp3" }) %>
     </div>
 
     <div style="float: right; height: 3em; width: 33%">
-        <%= makeSoundButton({soundFile: "bafe_420.wav.mp3"}) %>
+        <%= makeSoundButton({soundFile: "trialSounds\bd.mp3"}) %>
     </div>
 </div>
 
 <div class="trialpartWrapper" style="clear: both; text-align: center">
     Choose the correct option.
     <p>
-        <%= makeScale({buttons: ["first one", "second one", "third one"],
-        disable: false, rightAnswer: "second One", feedbackID: "#feedback",
+        <%= makeScale({buttons: ["option one", "option two", "option three"],
+        disable: false, rightAnswer: "first one", feedbackID: "#feedback",
         feedbackWrong: "No, you were supposed to press RIGHTANSWER.",
         feedbackRight: "Great! RIGHTANSWER is the right answer." }) %>
     </p>

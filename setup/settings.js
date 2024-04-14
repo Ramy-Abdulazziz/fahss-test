@@ -43,9 +43,7 @@ var Experigen =  {
 		},
 
 		folders: {
-			views: "views/",
 			sounds: "resources/sounds/",
-			pictures: "resources/pictures/"
 		},
 	
 		footer: "views/footer.html",

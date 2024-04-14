@@ -40,10 +40,10 @@ Experigen.initialize = function () {
         ...medialCodaH,
         ...medialOnsetH,
     ].shuffle();
-	
+
     this.addStaticScreen("intro.ejs");
     this.addStaticScreen("getgoing.ejs");
-    // this.addStaticScreen("trial.ejs");
+    this.addStaticScreen("trial.ejs");
     this.addBlock(experimentalOptions);
     this.addStaticScreen("demographic.ejs");
     this.addStaticScreen("finalthanks.ejs");
