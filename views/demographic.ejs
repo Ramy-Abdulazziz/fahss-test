@@ -13,31 +13,42 @@
             size="30"
             maxlength="100"
             style="width: 100%"
-        /> </P
-    ><P style="clear: both">
-        What sex do you identify as?<br />
+        /> </P>
+        
+    <P style="clear: both">
+
+        what is your sex?
+        <select name="sex" style="display: inline">
+            <option value="none">Please choose</option>
+            <option value="Male">Elementary</option>
+            <option value="Female">Intermediate</option>
+            <option value="I wish to self identify">Advanced</option>
+        </select>
+
+        If you self identify specify below?<br />
         <input
             type="text"
-            name="sex"
+            name="sex-self-identify"
             value=""
             size="30"
             maxlength="100"
             style="width: 100%"
         />
-
-        How would you rate your Modern Standard Arabic?
-        <select name="place" style="display: inline">
-            <option value="none">Please choose</option>
-            <option value="Elementary">Elementary</option>
-            <option value="Intermediate">Intermediate</option>
-            <option value="Advanced">Advanced</option>
-        </select>
     </P>
-
+    
+    <p>
+        How would you rate your Modern Standard Arabic?
+            <select name="arb-level-rate" style="display: inline">
+                <option value="none">Please choose</option>
+                <option value="Elementary">Elementary</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+    </p>
     <p>
         What is your experience with Modern Standard Arabic prior to taking ARB
         111 and/or ARB 112?
-        <select name="place" style="display: inline">
+        <select name="arb-exp" style="display: inline">
             <option value="none">Please choose</option>
             <option value="religious">
                 I learned some Modern Standard Arabic for religious purposes
@@ -52,7 +63,7 @@
         if other explain below<br />
         <input
             type="text"
-            name="other-exp"
+            name="other-arb-exp"
             value=""
             size="30"
             maxlength="100"
@@ -62,7 +73,7 @@
 
     <p>
         Are you a native english speaker?
-        <select name="place" style="display: inline">
+        <select name="native-english" style="display: inline">
             <option value="none">Please choose</option>
             <option value="yes">yes</option>
             <option value="no">no</option>
@@ -84,16 +95,26 @@
 
     <p>
         Arabic TA
-        <select name="place" style="display: inline">
+        <select name="TA" style="display: inline">
             <option value="none">Please choose</option>
             <option value="Hayat">Hayat</option>
             <option value="Reem">Reem</option>
             <option value="Maryam">Maryam</option>
             <option value="Hamzah">Hamzah</option>
-            <option value="NONE">none/other</option>
         </select>
     </p>
 
+    <P style="clear: both">
+        Enter your recitation time<br />
+        <input
+            type="text"
+            name="rec-time"
+            value=""
+            size="30"
+            maxlength="100"
+            style="width: 100%"
+        />
+    </P>
     <p>
         <!-- When were you born? 
 	<select name="year" style="display: inline">
@@ -149,11 +170,13 @@ We would love to hear any comments or questions you might have.<br>
 
 <p>
 Please leave us your email if you'd like us to get back to you.<br>
-<input type="text" name="email" value="" size="30" maxlength="100" style="width: 100%;"> --> </P
-    ><P style="text-align: right">
+<input type="text" name="email" value="" size="30" maxlength="100" style="width: 100%;"> --> 
+</P>
+
+<P style="text-align: right">
         <input
             type="button"
-            value="   send   "
+            value="   Continue   "
             onClick="Experigen.recordResponse(this);"
         />
     </P>

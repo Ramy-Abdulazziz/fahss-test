@@ -21,15 +21,15 @@
 	<div> <h4> Now Listen to these words - one of them is the same</h4></div>
 
 	<div  style="float:left; height: 3em; width: 25%;">
-		<%= makeSoundButton({soundFile: file_sg , soundFile2: this["file_pl" +(3-order)]}) %>
+		<%= makeSoundButton({soundFile: file_sg , soundFile1: this["file_pl" +(3-order)]}) %>
 	</div>
 
 	<div  style="float:left;  height: 3em; width: 50%;">
-		<%= makeSoundButton({soundFile: file_sg , soundFile2: this["file_pl" + (3-order)]}) %>
+		<%= makeSoundButton({soundFile: file_sg , soundFile2: this["file_pl" + (2-order)]}) %>
 	</div>
 
 	<div  style="float:right; height: 3em; width: 25%;">
-		<%= makeSoundButton({soundFile: file_sg , soundFile2: this["file_pl" + order]}) %>
+		<%= makeSoundButton({soundFile: file_sg , soundFile3: this["file_pl" + order]}) %>
 	</div>
 </div>
 
@@ -40,6 +40,9 @@
 	<!-- %= makeScale({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["first one", "second one"]}) % -->
 	<%= makeScale({buttons: ["first one","second one", "third one"]}) %>
 </div>
+
+
+<div class="trialpartWrapper"><%= continueButton() %></div>
 
 <!-- <div class="trialpartWrapper" style="clear:both; text-align: center;">  
 	Now say the last word you just heard.

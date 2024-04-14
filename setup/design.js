@@ -25,7 +25,6 @@ Experigen.initialize = function () {
 	this.addStaticScreen("trial.ejs"); 
 	this.addBlock(block1);
 	this.addStaticScreen("demographic.ejs");
-	this.addStaticScreen("randomNumber.ejs"); 
 	this.addStaticScreen("finalthanks.ejs");
 	
 }

@@ -1,42 +1,54 @@
-
+<!-- 
 <div style="clear:both;">
 	<div  style="align-content: center; height: 3em; width: 100%;">
-		<h2> This is a trial run </h2>
+		<h2> </h2>
 	</div>
+</div> -->
+
+<div class="trialpartWrapper" style="text-align: left">
+    <h4>Experimental Procedure:</h4>
+    <p>
+        You will be asked to listen to a word, upon listening you will be asked
+        to listen to three possible choices. Choose the choice that you feel
+        matches the original word that you heard. You may practice the procedure
+        below:
+    </p>
+
+    <%= continueButton("Continue") %>
 </div>
 
-
-<div class = "trialpartWrapper" style="clear:both;">
-	<div  style="align-content: center; height: 3em; width: 100%;">
-		<%= makeSoundButton({soundFile: "bafe_420.wav.mp3"}) %>
-	</div>
+<div class="trialpartWrapper" style="clear: both">
+    <div style="align-content: center; height: 3em; width: 100%">
+        <%= makeSoundButton({soundFile: "bafe_420.wav.mp3"}) %>
+    </div>
 </div>
 
-<div class = "trialpartWrapper" style="clear:both;">
-	<div> <h4> Now Listen to these words - one of them is the same</h4></div>
+<div class="trialpartWrapper" style="clear: both">
+    <div><h4>Now Listen to these words - one of them is the same</h4></div>
 
-	<div  style="float:left; height: 3em; width: 33%;">
-		<%= makeSoundButton({soundFile: "bafe_420.wav.mp3"}) %>
-	</div>
+    <div style="float: left; height: 3em; width: 33%">
+        <%= makeSoundButton({soundFile: "bafe_420.wav.mp3"}) %>
+    </div>
 
-	<div  style="float:left;  height: 3em; width: 33%;">
-		<%= makeSoundButton({soundFile: "bafe_420.wav.mp3" }) %>
-	</div>
+    <div style="float: left; height: 3em; width: 33%">
+        <%= makeSoundButton({soundFile: "bafe_420.wav.mp3" }) %>
+    </div>
 
-	<div  style="float:right; height: 3em; width: 33%;">
-		<%= makeSoundButton({soundFile: "bafe_420.wav.mp3"}) %>
-	</div>
+    <div style="float: right; height: 3em; width: 33%">
+        <%= makeSoundButton({soundFile: "bafe_420.wav.mp3"}) %>
+    </div>
 </div>
 
+<div class="trialpartWrapper" style="clear: both; text-align: center">
+    Choose the correct option.
+    <p>
+        <%= makeScale({buttons: ["first One", "second One", "third One"],
+        disable: false, rightAnswer: "second One", feedbackID: "#feedback",
+        feedbackWrong: "No, you were supposed to press RIGHTANSWER.",
+        feedbackRight: "Great! RIGHTANSWER is the right answer." }) %>
+    </p>
 
-
-<div class="trialpartWrapper" style="clear:both; text-align: center;">  
-	Choose the correct option. 
-	<p>
-	<%= makeScale({buttons: ["first One", "second One", "third One"], disable: false, rightAnswer: "second One", feedbackID: "#feedback", feedbackWrong: "No, you were supposed to press RIGHTANSWER.",  feedbackRight: "Great! RIGHTANSWER is the right answer."  }) %>
-	<div id="feedback" style="padding:30px;"></div>
-
+    <div id="feedback" style="padding: 30px"></div>
 </div>
-
 
 <div class="trialpartWrapper"><%= continueButton() %></div>
