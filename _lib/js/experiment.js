@@ -213,6 +213,14 @@ Experigen.recordResponse = function (callerbutton) {
 	this.advance(callerbutton);
 }
 
+Experigen.validateDemographicForm = (callerButton) => {
+	var form = document.forms["currentform"]; 
+	if(form.checkValidity()){ 
+		Experigen.recordResponse(callerButton); 
+	}else{ 
+		alert("please fill out all required fields"); 
+	}
+}
 
 Experigen.new_progressbar = function () {
 	

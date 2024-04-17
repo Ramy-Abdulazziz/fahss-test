@@ -2,7 +2,7 @@
     <input type="hidden" name="destination" value="demographics.csv" />
 
     Thank you! Please answer the following questions about your Arabic language
-    background.
+    background. 
 
     <p style="clear: both">
         What is your age?<br />
@@ -13,14 +13,15 @@
             size="30"
             maxlength="100"
             style="width: 100%"
+            required
         /> 
     </p>
         
     <p style="clear: both">
 
         what is your sex?<br />
-        <select name="sex" style="display: inline">
-            <option value="none">Please choose</option>
+        <select name="sex" style="display: inline" required>
+            <option value="" disabled selected hidden>Please choose</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
             <option value="I wish to self identify">I wish to self identify</option>
@@ -37,13 +38,14 @@
             size="30"
             maxlength="100"
             style="width: 100%"
+            
         />
     </P>
     
     <p>
         How would you rate your Modern Standard Arabic?<br />
-            <select name="arb-level-rate" style="display: inline">
-                <option value="none">Please choose</option>
+            <select name="arb-level-rate" style="display: inline" required>
+                <option value="" disabled selected hidden>Please choose</option>
                 <option value="Elementary">Elementary</option>
                 <option value="Intermediate">Intermediate</option>
                 <option value="Advanced">Advanced</option>
@@ -53,8 +55,8 @@
     <p>
         What is your experience with Modern Standard Arabic prior to taking ARB
         111 and/or ARB 112?<br />
-        <select name="arb-exp" style="display: inline">
-            <option value="none">Please choose</option>
+        <select name="arb-exp" style="display: inline" required>
+            <option value="" disabled selected hidden>Please choose</option>
             <option value="religious">
                 I learned some Modern Standard Arabic for religious purposes
             </option>
@@ -78,8 +80,8 @@
 
     <p>
         Are you a native speaker of English?<br />
-        <select name="native-english" style="display: inline">
-            <option value="none">Please choose</option>
+        <select name="native-english" style="display: inline" required>
+            <option value="" disabled selected hidden>Please choose</option>
             <option value="yes">yes</option>
             <option value="no">no</option>
         </select>
@@ -89,7 +91,7 @@
         If you are not a native English speaker, how would you rate your
         proficiency in English?<br />
         <select name="native-english-level" style="display: inline">
-            <option value="none">Please choose</option>
+            <option value="" disabled selected hidden>Please choose</option>
             <option value="Elementary">Elementary</option>
             <option value="Intermediate">Intermediate</option>
             <option value="Advanced">Advanced</option>
@@ -98,8 +100,8 @@
 
     <p>
         Arabic TA<br />
-        <select name="TA" style="display: inline">
-            <option value="none">Please choose</option>
+        <select name="TA" style="display: inline" required>
+            <option value="" disabled selected hidden>Please choose</option>
             <option value="Hayat">Hayat</option>
             <option value="Reem">Reem</option>
             <option value="Maryam">Maryam</option>
@@ -108,6 +110,8 @@
     </p>
 
     <p>
+        <small> * Indicates required field</small>
+    </p>
         <!-- When were you born? 
 	<select name="year" style="display: inline">
 		<option value="none">Please choose</option>
@@ -169,7 +173,7 @@ Please leave us your email if you'd like us to get back to you.<br>
         <input
             type="button"
             value="   Continue   "
-            onClick="Experigen.recordResponse(this);"
+            onClick="Experigen.validateDemographicForm(this);"
         />
     </P>
 </div>
